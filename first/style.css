@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+header {
+  height: 110px;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+}
+.main-wrapper {
+  background-color: hsl(0, 0%, 75%);
+  width: 100%
+  margin: 0 auto;
+  height: 570px;
+  display: flex;
+  flex-direction: row;
+}
+.left-sidebar {
+  width: 10%;
+  height: 100%;
+}
+.main-page {
+  width: 80%;
+  height: 100%;
+}
+.right-sidebar {
+  width: 10%;
+  height: 100%;
+}
+.page-content {
+  background-color: hsl(0, 0%, 90%);
+  height: 90%;
+}
+.page-footer {
+  background-color: hsl(0, 0%, 0%);
+  height: 10%;
+}
